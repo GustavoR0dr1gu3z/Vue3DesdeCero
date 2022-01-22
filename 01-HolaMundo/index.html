@@ -40,7 +40,7 @@
         {{user.age >= 100 ? user.ClassValue="Good" : user.classValue="Bad"}}
     </h1>
 -->
-    <h1 v-if="user.age <= 0 || user.age > 110">Edad fuera de rango</h1>
+    <h1 v-if="user.age <= 0 || user.age > 110" class="BadAll">Edad fuera de rango</h1>
     <h1 v-else-if="user.age >= 18" class="Good"> Eres mayor de edad</h1>
     <h1 v-else="" class="Bad"> Eres menor de edad</h1>
 
