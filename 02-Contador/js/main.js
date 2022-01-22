@@ -10,11 +10,11 @@ const app = Vue.createApp({
     methods:{
 
         minCount(){
-            console.log("Decremento");
+            console.log("Restar");
         },
 
         maxCount(){
-            console.log("Incremento");
+            console.log("Sumar");
         },
     }
 
