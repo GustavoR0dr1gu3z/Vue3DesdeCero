@@ -20,11 +20,11 @@ const app = Vue.createApp({
             this.count++;
         },
 
-        modCount(instruccion = "add"){
+        modCount(instruccion = "add", limit = 10){
             if(instruccion === "dis"){
-                this.count--;
+                this.count -= limit;
             }else{
-                this.count++;
+                this.count += limit;
             }
 
         },
