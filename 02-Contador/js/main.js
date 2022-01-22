@@ -1,7 +1,8 @@
 const app = Vue.createApp({
     data(){
         return{
-            title: "App Contador",
+            title: "App Contador - Vue",
+            
         }
     }
 
