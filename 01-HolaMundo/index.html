@@ -48,7 +48,7 @@
     
     <ul>
 
-        <li v-for="(movie, indice) in user.movies" key>
+        <li v-for="(movie, indice) in user.movies" :key=indice>
             {{indice}} = {{movie}}
         </li>
 
