@@ -11,10 +11,13 @@ const app = Vue.createApp({
 
         minCount(){
             console.log("Restar");
+            this.count--;
         },
 
         maxCount(){
             console.log("Sumar");
+            // Acceder a propiedades de un objeto
+            this.count++;
         },
     }
 
