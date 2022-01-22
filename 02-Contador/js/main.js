@@ -19,6 +19,15 @@ const app = Vue.createApp({
             // Acceder a propiedades de un objeto
             this.count++;
         },
+
+        modCount(instruccion = "add"){
+            if(instruccion === "dis"){
+                this.count--;
+            }else{
+                this.count++;
+            }
+
+        },
     }
 
 });
