@@ -8,5 +8,6 @@
     "start_url": "./?utm_source=web_app_manifest",
     "scope": "./",
     "lang": "es-MX",
-    "display": "standalone"
+    "display": "standalone",
+    "orientation": "portrait"
 }
