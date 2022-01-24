@@ -7,5 +7,6 @@
     "theme_color": "#41b883",
     "start_url": "./?utm_source=web_app_manifest",
     "scope": "./",
-    "lang": "es-MX"
+    "lang": "es-MX",
+    "display": "standalone"
 }
