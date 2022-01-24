@@ -8,4 +8,9 @@ const urlsToCache = [
     './img/icono256px.png',
     './img/icono512px.png',
     './img/icono1024px.png',
+    './js/main.js',
+    './js/mount.js',
+    './css/styles.css',
+    'https://unpkg.com/vue@next',
+    'https://necolas.github.io/normalize.css/8.0.1/normalize.css'
 ]
