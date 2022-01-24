@@ -2,6 +2,8 @@
 
     "name": "App Contador Vue",
     "short_name": "Contador Vue",
-    "description": "Contador App Vue es una aplicación de un contador, usando VueJS versión 3"
-
+    "description": "Contador App Vue es una aplicación de un contador, usando VueJS versión 3",
+    "background_color": "#35495e",
+    "theme_color": "#41b883",
+    "start_url": "/",
 }
