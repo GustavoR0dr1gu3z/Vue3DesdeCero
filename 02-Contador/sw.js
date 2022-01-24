@@ -42,6 +42,22 @@ self.addEventListener("activate", e => {
                     )
                 )
             }
+        ).then(
+            () => self.clients.claim()            
+        )
+    )
+})
+
+self.addEventListener("fetch", e =>{
+    e.respondWith(
+        caches.match(e.request).then(
+            res => {
+                if(res){
+                    return res
+                }else{
+                    return fetch(e.request)
+                }
+            }
         )
     )
 })
