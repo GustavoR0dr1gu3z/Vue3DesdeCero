@@ -9,5 +9,12 @@
     "scope": "./",
     "lang": "es-MX",
     "display": "standalone",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./img/icono16px.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
 }
