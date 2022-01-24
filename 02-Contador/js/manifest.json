@@ -5,5 +5,7 @@
     "description": "Contador App Vue es una aplicación de un contador, usando VueJS versión 3",
     "background_color": "#35495e",
     "theme_color": "#41b883",
-    "start_url": "./?utm_source=web_app_manifest"
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es"
 }
